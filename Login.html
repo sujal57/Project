@@ -4,10 +4,14 @@
 <h1> Login As</h1>
 <center>
 <div class="form">
-    <form>
-        <input type="button" name="cust" value="CUSTOMER" class="btn">
+    <form method="post" action="adminlog.php">
         <input type="button" name="admin" value="ADMIN" class="btn1">
-        <input type="button" name="owner" value="VEHICLE OWNER" class="btn">
+    </form>
+    <form action="custlog.php" method="post">
+        <input type="button" name="cust" value="CUSTOMER" class="btn2">
+    </form>
+    <form action="ownerlog.php" method="post">
+        <input type="button" name="owner" value="VEHICLE OWNER" class="btn3">
     </form>
 </div>
 </center>
