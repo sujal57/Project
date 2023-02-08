@@ -6,7 +6,7 @@ body{
 }
 h1{
 	font-family: 'Times New Roman', Times, serif;
-	color: white;
+	color: rgb(255, 0, 0);
 	text-align: center;
 	font-size: 50px;
 	/* border: 2px solid black; */
@@ -15,8 +15,31 @@ h1{
 
 .form{
 	/* border: 2px solid red; */
-	margin-top: 100px;
+	margin-top: 60px;
 	padding: 20px;
+}
+
+.btn{
+	border: 2px solid red;
+	border-radius: 10px;
+	margin: 30px;
+	margin-left: 70px;
+	padding: 10px 30px;
+	background-color: rgb(157, 255, 122);
+}
+.btn1{
+	border: 2px solid red;
+	border-radius: 10px;
+	margin: 30px;
+	margin-left: 70px;
+	padding: 10px 50px;
+	background-color: rgb(157, 255, 122);
+}
+.btn:hover{
+	background-color: yellowgreen;
+}
+.btn1:hover{
+	background-color: yellowgreen;
 }
 
 /* .form.button.ADMIN{
