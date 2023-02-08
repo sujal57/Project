@@ -14,12 +14,20 @@ h1{
 }
 
 .form{
-	/* border: 2px solid red; */
+	border: 2px solid red;
 	margin-top: 60px;
 	padding: 20px;
 }
 
-.btn{
+.btn1{
+	border: 2px solid red;
+	border-radius: 10px;
+	margin: 30px;
+	margin-left: 70px;
+	padding: 10px 50px;
+	background-color: rgb(157, 255, 122);
+}
+.btn2{
 	border: 2px solid red;
 	border-radius: 10px;
 	margin: 30px;
@@ -27,12 +35,12 @@ h1{
 	padding: 10px 30px;
 	background-color: rgb(157, 255, 122);
 }
-.btn1{
+.btn3{
 	border: 2px solid red;
 	border-radius: 10px;
 	margin: 30px;
 	margin-left: 70px;
-	padding: 10px 50px;
+	padding: 10px 30px;
 	background-color: rgb(157, 255, 122);
 }
 .btn:hover{
