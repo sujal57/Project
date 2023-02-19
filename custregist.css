@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-image: url('carlogin.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+input[type=text],
+input[type=password] {
+  width: 20%;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 15px 50px;
+  box-sizing: border-box;
+}
+
+.cust {
+  margin-left: 680px;
+}
+
+input[type=number],
+input[type=date] {
+  width: 20%;
+  float: right;
+  margin-top: 0%;
+}
+
+/* .add{
+  float: right;
+  border: 2px solid red;
+} */
+
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 7px 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+form {
+  width: 70rem;
+  height: 45rem;
+  margin: 10px 200px;
+  padding: 5px;
+  color: white;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.btn{
+  margin-top: 80px;
+}
+
+.heading {
+  text-align: center;
+}
