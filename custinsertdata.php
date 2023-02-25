@@ -19,7 +19,7 @@
 	   	$cmd=mysql_query($qry,$con);
 		if($cmd)
 		{
-			echo "Record inserted successfully";		
+				header("location:custlog.php");	
 		}
 		else
 		{
