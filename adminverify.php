@@ -1,16 +1,31 @@
 <?php 
-	Session_start();
+Session_start();
 
-	$uname = $_POST['aname'];
-	$pswd = $_POST['pwd'];
+$uname = $_POST[aname];
+$pass = $_POST[pwd];
 
-	if($aname=="dhruv" and $pswd=="123")
-	{
-		$_SESSION['aname']=$uname;
-		header("location:welcome.php?un=".$_SESSION['aname']);
-	}
-	else
-	{
-		echo "Something went wrong";
-	}
+$con=mysql_connect("localhost","root");
+$db=mysql_select_db("project");
+$query="select * from admin";
+$cmd=mysql_query($query,$con);
+while($row=mysql_fetch_array($cmd)){
+    $aid=$row[aid];
+    $pwd=$row[ad_pwd];
 ?>
+
+<?php 
+if($uname==$aid){
+	if($pass==$pwd){
+		$_SESSION['name']=$uname;
+		header("location:welcome.php?un=".$_SESSION['name']);
+	}
+	else{	
+		echo "Please enter correct password";
+	}
+}
+else{
+    echo "Please enter correct email id";
+}
+?>
+
+<?php } ?>
