@@ -35,7 +35,7 @@
 
             <br><br>
             Your username
-            <input type="text" placeholder="Enter Username" name="cid" required>
+            <input type="email" placeholder="Enter Username" name="cid" required>
 
             <br><br>
             Your password
