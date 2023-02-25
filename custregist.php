@@ -47,10 +47,8 @@
                 Address:
                 <textarea name="cadd" placeholder="Enter your Address"></textarea>
             <!-- </div> -->
-
-            <div class="btn">
-                <button type="submit">Register</button>
-            </div>
+	
+            <input type="submit" name="submit" value="Register">
         </div>
     </form>
 </body>
