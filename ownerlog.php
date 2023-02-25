@@ -18,7 +18,7 @@
         <!-- Main container for all inputs -->
         <div class="Container1">
             Your username
-            <input type="text" placeholder="Enter Username" name="aname" required>
+            <input type="email" placeholder="Enter Username" name="aname" required>
 
             <br><br>
             Your password
