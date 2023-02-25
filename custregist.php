@@ -18,6 +18,7 @@
 
         <!-- Main container for all inputs -->
         <div class="Container1">
+            <div class="inputfield">
             Name:
             <input type="text" placeholder="Enter your name" name="cname" required>
 
@@ -47,6 +48,9 @@
                 Address:
                 <textarea name="cadd" placeholder="Enter your Address"></textarea>
             <!-- </div> -->
+
+            </div>
+           
 
             <div class="btn">
                 <button type="submit">Register</button>
