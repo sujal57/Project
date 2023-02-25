@@ -1,9 +1,9 @@
 <?php 
 	Session_start();
 
-	if(isset($_SESSION['aname']))
+	if(isset($_SESSION['cname']))
 	{
-		echo "Welcome admin"
+		echo "Welcome ".$_SESSION['cname'];
 	}
 	else
 	{
