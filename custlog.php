@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <form action="">
+    <form action="retrive.php" method="post">
         <div class="heading">
             <h3>Customer</h3>
             <p>Login in with your username and password</p>
@@ -18,7 +18,7 @@
         <!-- Main container for all inputs -->
         <div class="Container1">
             Your username
-            <input type="text" placeholder="Enter Username" name="aname" required>
+            <input type="email" placeholder="Enter Username" name="cname" required>
 
             <br><br>
             Your password
@@ -34,7 +34,7 @@
             <button type="submit">Login</button>
 
             <!-- Sign up link -->
-            <p class="reg">Not a member?  <a href="#">Register here!</a></p>
+            <p class="reg">Not a member?  <a href="custregist.php">Register here!</a></p>
 
         </div>
 

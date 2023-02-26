@@ -36,7 +36,7 @@
 
             <br><br>
             Your username
-            <input type="text" placeholder="Enter Username" name="cid" required>
+            <input type="email" placeholder="Enter Username" name="cid" required>
 
             <br><br>
             Your password
@@ -48,6 +48,7 @@
                 Address:
                 <textarea name="cadd" placeholder="Enter your Address"></textarea>
             <!-- </div> -->
+<<<<<<< HEAD
 
             </div>
            
@@ -55,6 +56,10 @@
             <div class="btn">
                 <button type="submit">Register</button>
             </div>
+=======
+	
+            <input type="submit" name="submit" value="Register">
+>>>>>>> 1e45e2e41af0af88114709cbf45e23059773ccc1
         </div>
     </form>
 </body>
